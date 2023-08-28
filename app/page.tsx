@@ -58,7 +58,7 @@ export default async function Home() {
   );
 }
 
-export async function getAllProperty(): Promise<{
+async function getAllProperty(): Promise<{
   propertyForSale: Property[];
   propertyForRent: Property[];
 }> {
