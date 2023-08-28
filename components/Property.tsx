@@ -51,7 +51,6 @@ const Property = ({
           style={{ width: "auto", height: "auto" }}
         />
         <CardHeader>
-          {" "}
           <Heading as="h3" size="sm" noOfLines={1}>
             {title}
           </Heading>

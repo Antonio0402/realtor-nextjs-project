@@ -66,7 +66,7 @@ export default function SearchFilters() {
           <Image
             src={noresult}
             alt="no-result image"
-            style={{ borderRadius: "100%" }}
+            style={{ borderRadius: "100%", width: "auto", height: "auto" }}
           />
           <Text fontSize="xl">No Result Found.</Text>
         </Center>

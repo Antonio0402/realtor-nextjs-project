@@ -27,7 +27,13 @@ const Banner = ({
 }: BannerProps) => {
   return (
     <Flex wrap="wrap" gap="5" justify="center" align="center" m="10">
-      <Image src={imageUrl} alt="" width={500} height={300} />
+      <Image
+        src={imageUrl}
+        alt=""
+        width={500}
+        height={300}
+        style={{ width: "auto", height: "auto" }}
+      />
       <Box>
         <Text color="gray.500" fontSize="sm" fontWeight="medium">
           {purpose}

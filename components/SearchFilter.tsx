@@ -71,8 +71,7 @@ const SearchFilter = () => {
         searchParams = createQueryString(item.name, item.value);
       }
     });
-    const href = pathName + "?" + searchParams;
-    router.push(href, { scroll: false });
+    router.push(`/search?${searchParams}`, { scroll: false });
   }
 
   return (
