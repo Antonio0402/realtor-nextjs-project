@@ -1,26 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Overview
 
-## Getting Started
+Realtor webiste is built using Next.js, a React framework for server-side rendering and static site generation. It is typed with Typescript and styled using Chakra UI component library.
 
-First, run the development server:
+For state management, Jotai is chosen because of simple, fast React state solution.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+This project also is powered by a simple remake caching and synchronizing async state management, working similar to queryClient from React Query library
+
+Together, this project take advantages of Next.Js cutting-edge features and performance optimizations on routing and static rendering to build a fast, scalable commercial website.
+
+### Key Features
+
+1. Search and Filters
+   Find products easily with pagination, sorting, and advanced filters
+2. Responsive
+   Fully responsive design optimized for all devices
+3. Rapid API
+   Using Rapid API in order to fetching async datas and display filtered datas base on search query parameter
+4. SSG and SSR
+   The project supports both prefetched data on static routing as well as real-time datas when searching in order to create dynamic routing whichs ensures a sleek and responsive experience.
+
+### Installation
+
+Clone this repo and install all dependencies
+
+```
+git clone https://github.com/Antonio0402/realtor-nextjs-project.git
+
+cd realtor-nextjs-project
+
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Build
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Screenshot
+
+![Desktop Design](./screenshots/desktop-design.png)
 
 ## Learn More
 
