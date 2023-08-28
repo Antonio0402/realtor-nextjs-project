@@ -17,7 +17,6 @@ export default function ThemeProvider({
           gridTemplateRows="auto 1fr auto"
           gap="6"
           maxW="1440px"
-          fontFamily="Eudoxus-Sans, sans-serif"
         >
           {children}
         </Container>

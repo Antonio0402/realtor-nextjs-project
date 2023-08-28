@@ -19,8 +19,8 @@ export const metadata = {
     icon: [{ url: "/favicon.ico" }],
   },
   /* import stylesheets directly in the layout or page itself. */
-  preconnect: ["https://stijndv.com"],
-  stylesheet: ["https://stijndv.com/fonts/Eudoxus-Sans.css"],
+  // preconnect: ["https://stijndv.com"],
+  // stylesheet: ["https://stijndv.com/fonts/Eudoxus-Sans.css"],
 };
 
 config.autoAddCss = false;
