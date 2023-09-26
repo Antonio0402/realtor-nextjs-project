@@ -33,6 +33,7 @@ const Banner = ({
         width={500}
         height={300}
         style={{ width: "auto", height: "auto" }}
+        priority
       />
       <Box>
         <Text color="gray.500" fontSize="sm" fontWeight="medium">

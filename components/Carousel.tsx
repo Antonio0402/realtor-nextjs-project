@@ -145,11 +145,18 @@ const Carousel = ({ children }: { children: ReactNode }) => {
       position="relative"
       placeItems="center"
     >
-      <Box p="2" maxWidth="910px" overflow="hidden" boxShadow="xl" mx="auto">
+      <Box
+        p="2"
+        maxWidth="910px"
+        height="auto"
+        overflow="hidden"
+        boxShadow="xl"
+        mx="auto"
+      >
         <CarouselContainer dir={state.dir} sliding={state.sliding}>
           {React.Children.map(children, (child, index) => (
             <Box
-              flex="1 0 100%"
+              flex="1 0 auto"
               flexBasis="100%"
               mr="4"
               order={getOrder(index, state.pos, numItems)}

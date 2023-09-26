@@ -130,7 +130,7 @@ export default async function PropertyDetailPage({
         </WrapItem>
       )}
       <Box py="2">
-        {amenities.length && (
+        {amenities?.length && (
           <Text fontSize="2xl" fontWeight="black">
             Facilities
           </Text>

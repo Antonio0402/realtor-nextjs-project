@@ -51,9 +51,7 @@ export default function SearchFilters() {
         <FontAwesomeIcon icon={faFilter} size="lg" />
       </Center>
       {searchFilters && <SearchFilter />}
-      <Heading as="h3" size="2xl" p="4">
-        Properties {purpose}
-      </Heading>
+      <Heading as="h3">Properties {purpose}</Heading>
       <Wrap>
         {properties?.map((property: PropertyProps) => (
           <WrapItem key={property.id}>
